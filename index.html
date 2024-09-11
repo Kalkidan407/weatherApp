@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="mainCon">
+      <input type="search" id="inputData" placeholder="Enter city name" />
+      <button id="btn">Search</button>
+    </div>
+
+    <div class="card" style="display: none">
+      <h2 class="ctyName"></h2>
+      <div class="weaDes">
+        <p id="temp"></p>
+        <p id="wea"></p>
+
+        <p id="humi"></p>
+        <p id="wind"></p>
+        <p></p>
+      </div>
+    </div>
+    <div id="loading" style="display: none">
+      <p>Loading...</p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
